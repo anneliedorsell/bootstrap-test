@@ -9,45 +9,44 @@
     <title>Bootstrap</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Hello World!</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                                             Explicabo porro animi voluptas laboriosam minus odio ab odit nemo consequuntur ea.</p>
-                        <button class="btn btn-primary">Hello!</button>
-                    </div>
-                </div>
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color:magenta;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="images/logol_white.svg" alt="logo" width="40" height="40" class="d-inline-block align-text-center"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: white; font-size: large;" href="#">Welcome</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white; font-size: large;" href="#">About Me</a>
+                    </li>
+                </ul>
             </div>
-            <div class="col">
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Hello World!</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                                             Explicabo porro animi voluptas laboriosam minus odio ab odit nemo consequuntur ea.</p>
-                        <button class="btn btn-warning">Oh no!</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Hello World!</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                                             Explicabo porro animi voluptas laboriosam minus odio ab odit nemo consequuntur ea.</p>
-                        <button class="btn btn-danger">Danger!</button>
-                    </div>
-                </div>
-            </div>
+        </div>   
+    </nav>
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/water.jpg" class="d-block w-100" alt="woman swimming">
+          </div>
+          <div class="carousel-item">
+            <img src="images/friends.jpg" class="d-block w-100" alt="close-up on two women">
+          </div>
+          <div class="carousel-item">
+            <img src="images/coldwater.jpg" class="d-block w-100" alt="sign with temperature">
+          </div>
         </div>
-
     </div>
-
-
-
-  <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
+    <div class="card">
+        <div class="card-body" style="background-color: magenta; color: white; font-size: x-large;">
+            Join Us!
+        </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
 </body>
 </html>
